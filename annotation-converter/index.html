@@ -4,13 +4,30 @@
     <title>
       Annotation Converter
     </title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
-      <h1>Under Construction</h1>
+      <h1>Annotation Converter</h1>
     </header>
     <main>
-      <p>Under Construction</p>
+      <form id="annotation-converter-form">
+        <div class="form-input">
+          <label for="form-input-file">Select file</label>
+          <input id="form-input-file" type="file"/>
+        </div>
+        <div class="form-input">
+          <label for="form-input-type">Select annotation type</label>
+          <select id="form-input-type" name="options">
+            <option value="coco" selected>COCO</option>
+            <option value="yolo">YOLO</option>
+            <option value="cira">Cira CORE</option>
+          </select>
+        </div>
+      </form>
+      <fieldset id="selected-files">
+        <legend>Selected files</legend>
+      </fieldset>
     </main>
   </body>
   <footer>

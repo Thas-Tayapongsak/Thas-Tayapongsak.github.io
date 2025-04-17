@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#annotation-converter-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-input {
+    padding: 0;
+    min-width: 50px;;
+}
